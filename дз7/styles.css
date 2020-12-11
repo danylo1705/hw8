@@ -1,0 +1,588 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.nav{
+    display: flex;
+    justify-content: space-around;
+    
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style-type: none;
+}
+.nav ul{
+    display: flex;
+    
+    align-items: center;
+   
+    
+}
+header{
+    margin-top: 30px;
+}
+.nav li{
+    margin-left: 40px;
+}
+.contact{
+    padding: 20px;
+    border-radius: 50px;
+    border: 2px solid #FB4C47;
+    margin-left: 40px;
+}
+.contact{
+    color: red;
+}
+
+.over{
+    color: red;
+}
+.a{
+    color: black;
+}
+.covid h1{
+    color: red;
+    font-size: 20px;
+
+}
+.covid{
+    font-size: 23px;
+    display: flex;
+    /* flex-direction: column; */
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    
+}
+.textcovid{
+    max-width: 250px;
+    margin-top: 150px;
+
+    
+}
+.textcovid p{
+    margin-top: 10px;
+}
+.stay{
+    color: darkcyan;
+}
+.spec{
+    font-size: 15px;
+}
+.covid img{
+    max-width: 500px;
+    max-height: 400px;
+}
+.covid a{
+    
+     padding: 20px;
+    border-radius: 50px;
+    border: 2px solid #FB4C47;
+    color: white;
+    background-color: red; 
+    display: flex;
+    max-width: 157px;
+    margin-top: 20px;
+}   
+.covid19{
+    font-size: 23px;
+    display: flex;
+     /* flex-direction: column;  */
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+}
+.conttxt{
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+    margin-left: 50px;
+}
+.covid2{
+    max-width: 600px;
+    max-height: 400px ;
+}
+.conttxt h2{
+    font-size: 20px;
+    color: red;
+}
+.corona{
+    color: darkcyan;
+    font-size: 35px ;
+}
+.conttxt p{
+    margin-top: 10px;
+}
+.conttxt a{
+    padding: 20px;
+    border-radius: 50px;
+    border: 2px solid #FB4C47;
+    color: white;
+    background-color: red; 
+    display: flex;
+    max-width: 157px;
+    margin-top: 20px;
+}
+body{
+    background-color: #f8f2f2;
+}
+.contagion h2{
+    font-size: 20px;
+    color: red;
+}
+.main{
+    color: darkcyan;
+    font-size: 35px ;
+}
+.contagion p{
+    margin-top: 10px;
+}
+.conttxtm{
+     font-size: 23px; 
+    display: flex;
+    text-align: center;
+    margin: 0  auto  ;
+    justify-content: space-around; 
+    flex-direction: column; 
+    max-width: 500px; 
+}
+.second{
+    font-size: 15px;
+    
+}
+.air{
+    display: flex;
+    height:400px ;
+    width:450px ;
+    background-color: white;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.air img{
+    max-height:250px ;
+    max-width:270px ;
+}
+.airtxt{
+    color: darkcyan;
+    font-size: 30px ;
+    
+}
+.airtxt2{
+    font-size: 15px;
+    max-width: 300px;
+    text-align: center;
+}
+.human{
+    display: flex;
+    height:400px ;
+    width:450px ;
+    background-color: white;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.human img{
+    max-height:250px ;
+    max-width:270px ;
+}
+.humantxt1{
+    color: darkcyan;
+    font-size: 30px ;
+}
+.humantxt2{
+    font-size: 15px;
+}
+.obj{
+    display: flex;
+    height:400px ;
+    width:450px ;
+    background-color: white;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.obj img{
+    max-height:250px ;
+    max-width:270px ;
+}
+.objtxt1{
+    color: darkcyan;
+    font-size: 30px ;
+}
+.objtxt2{
+    font-size: 15px;
+}
+.band{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 100px;
+}
+.symptomstxt{
+    display: flex;
+    max-width: 500px;
+    margin: 0 auto;
+    flex-direction: column;
+    text-align: center;
+}
+.symptoms img{
+    display: flex;
+    max-width: 600px;
+    max-height: 500px;
+    margin:0 auto ;
+    margin-top: 20px;
+    
+}
+.contagion{
+    margin-top: 100px;
+}
+.symptoms{
+    margin-top: 100px;
+}
+.symptoms h2{
+    font-size: 20px;
+    color: red;
+}
+.symptxt1{
+    color: darkcyan;
+    font-size: 35px ;
+}
+.symptxt2{
+    font-size: 15px;
+}
+.symptoms p{
+    margin-top: 10px;
+}
+.heading{
+    display: flex;
+    max-width: 500px;
+    margin: 0 auto;
+    flex-direction: column;
+    text-align: center;
+}
+.heading h2{
+    font-size: 20px;
+    color: red;
+}
+.whattxt1{
+    color: darkcyan;
+    font-size: 35px ;
+}
+.whattxt2{
+    font-size: 15px;
+}
+.heading p{
+    margin-top: 10px;
+}
+.what{
+    margin-top: 100px;
+}
+.mask{
+    display:flex;
+    margin: 0 auto;
+    max-width: 800px;
+    margin-top: 10px;
+   
+    
+    
+
+}
+.masktxt{
+    display: flex;
+    flex-direction: column;
+    max-width: 450px;
+    margin: 0 auto;
+    margin-top: 100px;
+    
+    
+}
+.h2{
+    display: flex;
+    
+    
+}
+.num1{
+    margin-right:20px ;
+    padding: 8px;
+    border-radius: 50px;
+    border: 2px solid #FB4C47;
+    color: red ;
+    background-color: #df9f9f;
+
+}
+.masktxt2{
+    margin-left: 50px;
+    font-size: 15px;
+}
+.mask img{
+margin-top: 50px;
+max-width: 300px;
+max-height: 250px;
+
+}
+.masktxt1{
+    color: darkcyan;
+    font-size: 30px ;
+}
+.wash{
+    display:flex;
+    margin: 0 auto;
+    max-width: 800px;
+    margin-top: 10px;
+   
+    
+    
+
+}
+.washtxt{
+    display: flex;
+    flex-direction: column;
+    max-width: 450px;
+    margin: 0 auto;
+    margin-top: 100px;
+   
+    
+    
+}
+.washh2{
+    display: flex;
+    
+    
+}
+.num2{
+    margin-right:20px ;
+    padding: 8px;
+    border-radius: 50px;
+    border: 2px solid #FB4C47;
+    color: red ;
+    background-color: #df9f9f;
+
+}
+.washtxt2{
+    margin-left: 50px;
+    font-size: 15px;
+}
+.wash img{
+margin-top: 50px;
+max-width: 300px;
+max-height: 250px;
+
+}
+.washtxt1{
+    color: darkcyan;
+    font-size: 30px ;
+}
+.rag{
+    display:flex;
+    margin: 0 auto;
+    max-width: 800px;
+    margin-top: 10px;
+   
+    
+    
+
+}
+.ragtxt{
+    display: flex;
+    flex-direction: column;
+    max-width: 450px;
+    margin: 0 auto;
+    margin-top: 100px;
+    
+    
+}
+.ragh2{
+    display: flex;
+    
+    
+}
+.num3{
+    margin-right:20px ;
+    padding: 8px;
+    border-radius: 50px;
+    border: 2px solid #FB4C47;
+    color: red ;
+    background-color: #df9f9f;
+
+}
+.ragtxt2{
+    margin-left: 50px;
+    font-size: 15px;
+}
+.rag img{
+margin-top: 50px;
+max-width: 300px;
+max-height: 250px;
+
+}
+.ragtxt1{
+    color: darkcyan;
+    font-size: 30px ;
+}
+.avoid{
+    display:flex;
+    margin: 0 auto;
+    max-width: 800px;
+    margin-top: 10px;
+   
+    
+    
+
+}
+.avoidtxt{
+    display: flex;
+    flex-direction: column;
+    max-width: 450px;
+    margin: 0 auto;
+    margin-top: 100px;
+   
+    
+    
+}
+.avoidh2{
+    display: flex;
+    
+    
+}
+.num4{
+    margin-right:20px ;
+    padding: 8px;
+    border-radius: 50px;
+    border: 2px solid #FB4C47;
+    color: red ;
+    background-color: #df9f9f;
+
+}
+.avoidtxt2{
+    margin-left: 50px;
+    font-size: 15px;
+}
+.avoid img{
+margin-top: 50px;
+max-width: 300px;
+max-height: 250px;
+
+}
+.avoidtxt1{
+    color: darkcyan;
+    font-size: 30px ;
+}
+.question{
+    margin-top: 100px;
+}
+.question img{
+    display: flex;
+    width: 1000px;
+    max-height: 700px;
+    margin: 0 auto;
+}
+.questtxt{
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    max-width: 500px ;
+}
+.questtxt1{
+    font-size: 50px;
+    color: green;
+    text-align: center;
+    margin-top: 50px;
+}
+.send{
+    display: flex;
+    padding: 20px;
+    border-radius: 50px;
+    border: 2px solid #4d4848;
+    justify-content: space-between;
+    width: 790px;
+    margin:0 auto ;
+    max-width: 700px;
+    margin-top: 40px;
+
+}
+.email{
+   margin-left: 20px; 
+   color: grey;
+   margin-top: 22px;
+   
+}
+.sendtxt{
+     display: flex;
+    padding: 20px;
+    border-radius: 50px;
+    border: 2px solid #ce1e1e; 
+    background-color: #ce1e1e;
+    width: 150px;
+    color: white;
+    justify-content: space-around;
+}
+footer{
+    /* display: flex; */
+    max-height: 300px;
+    
+
+}
+.nav2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 50px;
+    
+}
+.nav2 ul{
+    display: flex;
+    flex-direction: row;
+    /* margin-top: 40px; */
+}
+.nav2 li{
+    margin-left: 40px;
+}
+.copyright{
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    margin-top: 40px;
+}
+.contact:hover{
+    background-color: #FB4C47;
+    color: white;
+}
+.contact{
+    transition: background-color linear 0.3s, color linear 0.3s;
+}
+li:hover{
+    font-size: 28px;
+    
+}
+li{
+    transition: font-size linear 0.3s;
+}
+  .textcovid a:hover{  
+    background-color: #290ec2;
+    color: white;
+  border:  #290ec2;
+}
+.textcovid a{
+transition: background-color linear 0.3s, color linear 0.3s;
+}
+.covid19 a:hover{  
+    background-color: #290ec2;
+    color: white;
+  border:  #290ec2;
+}
+.covid19 a{
+transition: background-color linear 0.3s, color linear 0.3s;
+}
+.send a:hover{  
+    background-color: #290ec2;
+    color: white;
+  border:  #290ec2;
+}
+.send a{
+transition: background-color linear 0.3s, color linear 0.3s;
+}
